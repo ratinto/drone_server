@@ -1,0 +1,8 @@
+for arming
+
+curl -X POST https://https://drone-http-server.onrender.com/command -H "Content-Type: application/json" -d '{"action":"ARM"}'
+
+
+for disarming
+
+curl -X POST https://https://drone-http-server.onrender.com/command -H "Content-Type: application/json" -d '{"action":"DISARM"}'
